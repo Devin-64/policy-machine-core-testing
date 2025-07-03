@@ -37,7 +37,7 @@
                         </goals>
                         <configuration>
                             <sources>
-                                <source>${project.build.directory}/generated-sources/gov/nist/csd/pm/core/pap/pml/antlr</source>
+                                <source>target/generated-sources</source>
                             </sources>
                         </configuration>
                     </execution>
